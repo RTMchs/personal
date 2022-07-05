@@ -1,0 +1,211 @@
+body {
+    margin: 0 0;
+    background-color: #ffffff;
+    font-family: Arial;
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+.backCon {
+    width: 100%;
+    height: 100vh;
+}
+
+.hobInfo {
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background: #262c4e url(https://i.imgur.com/0GwDw6Y.jpg) center no-repeat;
+    background-size: cover;
+    font-family: Arial;
+    font-size: 24px;
+    margin-top: 0px;
+    text-align: center;
+    padding-top: 5px;
+    opacity: 1;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0 0;
+}
+
+p {
+    margin: 0 0 0px 0;
+}
+
+.containerHob {
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    font-size: 38px;
+}
+
+.hInner {
+    display: flex;
+    margin: 0 auto;
+    padding: 0 0 0 0;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+}
+
+.hMtitle {
+    font-size: 32px;
+    color: #fffffc;
+    line-height: 1.1;
+    padding-left: 150px;
+    text-shadow: 2px 1px 1px black;
+}
+
+.navigation {
+    display: flex;
+    font-family: Arial;
+    font-size: 20px;
+}
+
+.navContent { 
+    margin-left: 30px;
+    text-decoration: none;
+    font-weight:400;
+    margin: 20px 0 0 50px;
+    position: relative;
+    text-shadow: 0px 1px 0px black;
+    transition: all .2s
+        linear;
+        border-bottom: 2px solid rgba(59, 252, 252, 0);
+}
+
+.resume {
+    text-decoration: none;
+    color: white;
+}
+
+.resume::hover {
+    text-decoration: none;
+    color: white;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+.backInner { 
+    width: 100%;
+    max-width: 880px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 1;
+    color: #fff;
+}
+
+.backTitle {
+    font-size: 44px;
+    font-weight: bold;
+    text-shadow: 4px 2px 12px black;
+    padding-top: 400px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 15vh;
+}
+
+.svinvatar {
+    width: 200px;
+}
+
+
+.cGames {
+    padding-top: 150px;
+    font-size: 32px;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 2px rgb(97, 28, 194);
+}
+
+.cGames::after {
+    content: "";
+    margin:auto;
+    display: block;
+    width: 25vh;
+    height: 3px;
+    background-color: rgb(206, 76, 238);
+    margin-bottom: 75px;
+}
+
+.alinkHob {
+    display: block;
+    width: 100px;
+    height: 50px;
+    margin: auto;
+}
+
+.arrowHob {
+    display: block;
+    width: 100px;
+    padding-top: 0px;
+    margin-bottom: 0;
+    opacity: .8;
+    margin: auto;
+}
+
+.description {
+    margin-bottom: 50px;
+    max-width: 1300px;
+    font-size: 28px;
+    margin:0 auto;
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 1px 2px black;
+}
+
+.description::after {
+    content: "";
+    margin:auto;
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: rgb(206, 76, 238);
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.block {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.blockUnit{
+    padding: 0 25px;
+    text-align: center;
+    width: 33.33%;
+    margin-left: 25px;
+    text-align:inherit;
+}
+
+.blockImage {
+    margin-top: auto;
+    vertical-align: middle;
+    margin-bottom: 5px;
+    padding-bottom: 0;
+    width: 60px;
+    text-decoration: none;
+}
+
+.blockTitle {
+    margin-top: 0;
+    margin-bottom: auto;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 1px 2px black;
+}
+
+.blockText {
+    color: rgb(116, 181, 255);;
+    font-size: 18px;
+    line-height: 1.5;
+    text-shadow: 1px 1px 1px black;
+}
+

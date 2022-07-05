@@ -1,0 +1,39 @@
+a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.resume {
+  text-decoration: none;
+  color: white;
+}
+
+.resume::hover {
+  text-decoration: none;
+  color: white;
+}
+
+.navbarb {
+  padding-left: 100px;
+  font-size: 24px;
+  transition: text-shadow .2s linear;
+  margin: 0 auto;
+}
+
+.navbarb:hover {
+  text-shadow: 1px 4px 6px #002396;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}

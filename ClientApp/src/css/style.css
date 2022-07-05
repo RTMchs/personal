@@ -1,0 +1,291 @@
+html {
+    font-size: 14px;
+}
+body {
+    margin: 0 0;
+    background-color: #ffffff;
+    font-family: Arial;
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+p {
+    margin: 0 0 0px 0;
+}
+
+ .header {
+    background:rgba(255, 255, 255, .0);
+    width: 100%;
+    position:absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    transition: all .7s;
+}
+
+.header::after{
+    content: "";
+    margin:auto;
+    display: block;
+    width: 100%;
+    height: 4px;
+    opacity: .75;
+    background-color: rgb(2 91 106);
+} 
+
+.container {
+    min-width: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+}
+
+.page-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.hInner {
+    display: flex;
+    margin: 0 auto;
+    padding: 0 0 0 0;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+}
+
+.content-wrap {
+    flex:1;
+}
+
+.svinimg {
+    display: block;
+    width: 90px;
+    border-radius: 50%;
+    margin: 5px 0px 0px 50px;
+}
+
+.hMtitle {
+    font-size: 28px;
+    color: #fffffc;
+    line-height: 1.1;
+    padding-left: 150px;
+} 
+
+.navigation {
+    display: flex;
+    font-family: Arial;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    align-self: right;
+}
+
+.navContent { 
+    padding: 0;
+    margin-left: 30px;
+    text-decoration: none;
+    font-weight:400;
+    margin: 20px 0 0 50px;
+    position: relative;
+    text-shadow: 0px 1px 0px black;
+    transition: all .2s linear;
+    border-bottom: 2px solid rgba(59, 252, 252, 0);
+}
+
+.navContent:hover { 
+    text-decoration: none;
+    color: white;
+    text-shadow: 1px 4px 6px #002396;
+    border-bottom: 2px solid rgb(59, 252, 252);
+}
+
+.anavContent { 
+    padding: 0;
+    margin-left: 30px;
+    text-decoration: none;
+    font-weight:400;
+    margin: 27px 0 0 50px;
+    position: relative;
+    text-shadow: 0px 1px 0px black;
+    transition: all .2s linear;
+    border-bottom: 2px solid rgba(59, 252, 252, 0);
+  }
+  
+  .anavContent:hover { 
+    text-decoration: none;
+    color: white;
+    text-shadow: 1px 4px 6px #002396;
+    border-bottom: 2px solid rgb(59, 252, 252);
+  }
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+.back {
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background: #262c4e url(https://i.imgur.com/r4zKNm1.png) center no-repeat;
+    background-size: cover;
+    opacity: 1; 
+}
+
+.backCon {
+    width: 100%;
+    height: 100vh;
+}
+
+.backInner { 
+    width: 100%;
+    max-width: 880px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 1;
+    color: #fff;
+}
+
+.backTitle {
+    font-size: 100px;
+    font-weight: bold;
+    text-shadow: 1px 1px 12px black;
+    padding-top: 300px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.svinvatar {
+    width: 200px;
+}
+
+.mainInfo {
+    display: block;
+    flex-direction: column;
+    justify-content:center;
+    width: 100%;
+    height: 100vh;
+    background: #262c4e url(https://i.imgur.com/EvYuJ3Z.png) no-repeat; 
+    background-size: cover;
+    font-family: Arial;
+    font-size: 24px;
+    text-align: center;
+    padding: 0;
+}
+
+.aboutme {
+    padding-top: 150px;
+    font-size: 36px;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 2px rgb(97, 28, 194);
+}
+
+.aboutme::after{
+    content: "";
+    margin:auto;
+    display: block;
+    width: 200px;
+    height: 3px;
+    background-color: rgb(61, 167, 185);
+    margin-bottom: 80px;
+}
+
+.goDown {
+    font-weight: bold;
+    font-size: 24px;
+    text-shadow: 1px 1px 6px black;
+    padding-bottom: 100px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.alink {
+    display: block;
+    width: 100px;
+    height: 50px;
+    margin: auto;
+}
+
+.arrow {
+    display: block;
+    width: 100px;
+    padding-top: 100px;
+    opacity: .8;
+    margin: auto;
+}
+
+
+
+.blocks {
+    max-width: 1300px;
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.blocksUnit{
+    padding: 0 25px;
+    text-align: center;
+    width: 25%;
+    border-color: rgba(0, 0, 0, 0);
+    border-style:solid;
+    border-width: 2px;
+    border-radius: 10%;
+    margin-left: 25px;
+    text-align:inherit;
+    transition: border-color .2s linear;
+    transition: box-shadow .2s linear;
+}
+
+.blocksUnit:hover {
+    border-style: solid;
+    border-color: rgb(76, 214, 238);
+}
+
+.blocksImage {
+    margin-top: auto;
+    vertical-align: middle;
+    margin-bottom: 5px;
+    padding-bottom: 0;
+    width: 50px;
+    text-decoration: none;
+}
+
+.blocksTitle {
+    color: rgb(255, 255, 255);
+    margin-top: 0;
+    margin-bottom: auto;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.blocksText {
+    color: rgb(116, 181, 255);;
+    font-size: 18px;
+    line-height: 1.5;
+    text-shadow: 1px 1px 1px black;
+    padding-inline: inherit;
+}
+
+.backHob {
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background: #a6aedd url(https://fm.cnbc.com/applications/cnbc.com/resources/img/editorial/2017/12/21/104911702-thumnbial.jpg?v=1513872051) center no-repeat;
+    background-size: cover;
+    opacity: 1; 
+}

@@ -1,0 +1,39 @@
+body {
+    margin: 0 0;
+    background-color: #f4f4f4;
+    font-family: Arial;
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+.contactsplace {
+    padding-top: 50vh;
+    display: flex;
+}
+
+.contactunit {
+    margin-left: 100px;
+    width: 33.3%;
+}
+
+
+.containerCon {
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    min-height: 100vh;
+}
+
+.svinimg{
+    width: 100px;
+}
+
+.contactsimg {
+    width: 200px;
+}
